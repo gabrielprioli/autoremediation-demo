@@ -1,0 +1,8 @@
+---
+- name: Final
+  hosts: all
+ 
+  tasks:
+ 
+  - name: Final
+    shell: echo "Problem solved"
