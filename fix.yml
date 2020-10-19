@@ -6,7 +6,7 @@
  
   - name: Fix problem
     uri:
-      url: http://104.45.187.222:8080/services/ConfigurationService/setPluginEnabled?name=BadCacheSynchronization&enabled=false      
+      url: http://52.191.84.29:8080/services/ConfigurationService/setPluginEnabled?name=LoginProblems&enabled=false      
       status_code: [200, 201, 202]
       return_content: no
     register: this
