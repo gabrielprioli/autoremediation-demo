@@ -1,6 +1,6 @@
 ---
 - name: Final
-  hosts: all
+  hosts: localhost
  
   tasks:
  
