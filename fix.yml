@@ -1,6 +1,6 @@
 ---
 - name: Fix problem
-  hosts: all
+  hosts: localhost
  
   tasks:
  
