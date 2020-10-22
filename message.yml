@@ -5,4 +5,4 @@
   tasks:
  
   - name: Final
-    shell: echo "Problem solved"
+    shell: echo "42"

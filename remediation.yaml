@@ -4,15 +4,15 @@ metadata:
   name: remediation-service-easytravel
 spec:
   remediations:
-    - problemType: Response time degradation
+    - problemType: Failure rate increase
       actionsOnOpen:
-        - name: Fix problem
-          description: ...
-          action: job_template_launch
-          value:
-            JobTemplate: "14"
         - name: Output message
           description: ...
           action: job_template_launch
           value:
             JobTemplate: "15"
+        - name: Fix problem
+          description: ...
+          action: job_template_launch
+          value:
+            JobTemplate: "14"

@@ -8,9 +8,9 @@
     "data": {
         "State": "OPEN",
         "ProblemID": "ab81-941c-1245",
-        "ProblemTitle": "Response time degradation",
+        "ProblemTitle": "Failure rate increase",
         "project": "easytravel",
         "stage": "production",
-        "service": "easytravel-www"
+        "service": "easytravel-backend"
     }
 }
